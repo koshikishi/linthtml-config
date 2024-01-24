@@ -16,5 +16,11 @@
   "repository": "github:koshikishi/linthtml-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@linthtml/linthtml": "^0.9.5"
+  },
+  "engines": {
+    "node": ">=18.0"
   }
 }
