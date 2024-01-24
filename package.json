@@ -12,7 +12,11 @@
   },
   "license": "MIT",
   "author": "Anton Northern",
-  "main": "index.js",
+  "files": [
+    "index.cjs"
+  ],
+  "type": "module",
+  "exports": "./index.cjs",
   "repository": "github:koshikishi/linthtml-config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
