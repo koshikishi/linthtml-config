@@ -19,6 +19,7 @@
   "exports": "./index.cjs",
   "repository": "github:koshikishi/linthtml-config",
   "scripts": {
+    "prepare": "husky install",
     "lint": "npm run lint:spaces && npm run lint:scripts",
     "lint:spaces": "ec",
     "lint:scripts": "eslint .",
@@ -27,7 +28,8 @@
   "devDependencies": {
     "@koshikishi/eslint-config": "^1.1.0",
     "editorconfig-checker": "^5.1.2",
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3"
   },
   "peerDependencies": {
     "@linthtml/linthtml": "^0.9.5"
