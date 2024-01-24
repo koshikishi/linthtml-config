@@ -1,0 +1,20 @@
+{
+  "name": "@koshikishi/linthtml-config",
+  "version": "0.1.0",
+  "description": "LintHTML shareable config",
+  "keywords": [
+    "linthtml",
+    "linthtml-config"
+  ],
+  "homepage": "https://github.com/koshikishi/linthtml-config#readme",
+  "bugs": {
+    "url": "https://github.com/koshikishi/linthtml-config/issues"
+  },
+  "license": "MIT",
+  "author": "Anton Northern",
+  "main": "index.js",
+  "repository": "github:koshikishi/linthtml-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
