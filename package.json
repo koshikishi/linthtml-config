@@ -29,8 +29,8 @@
     "postpublish": "git push origin --all && git push origin --tags"
   },
   "devDependencies": {
-    "@koshikishi/eslint-config": "^1.1.0",
-    "editorconfig-checker": "^5.1.2",
+    "@koshikishi/eslint-config": "^2.0.0",
+    "editorconfig-checker": "^5.1.3",
     "eslint": "^8.56.0",
     "husky": "^8.0.3"
   },
